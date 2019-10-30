@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3411C7C4231F8F2F000EFEB8 /* ScreenshotUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411C7C3231F8F2F000EFEB8 /* ScreenshotUtil.m */; };
+		3411C7C7231FB909000EFEB8 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411C7C6231FB909000EFEB8 /* PaintView.m */; };
+		3411C7CB231FCAC4000EFEB8 /* UIView+ConvertToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411C7CA231FCAC4000EFEB8 /* UIView+ConvertToImage.m */; };
+		3411C7CF231FD27A000EFEB8 /* ImageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411C7CE231FD27A000EFEB8 /* ImageListView.m */; };
+		3411C7D3231FD293000EFEB8 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411C7D1231FD293000EFEB8 /* ImageCell.m */; };
+		3411C7D4231FD293000EFEB8 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3411C7D2231FD293000EFEB8 /* ImageCell.xib */; };
 		3416891D231F508C00F7D3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416891C231F508C00F7D3C8 /* AppDelegate.m */; };
 		34168920231F508C00F7D3C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416891F231F508C00F7D3C8 /* ViewController.m */; };
 		34168923231F508C00F7D3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34168921231F508C00F7D3C8 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 		3416892B231F508F00F7D3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416892A231F508F00F7D3C8 /* main.m */; };
 		34168935231F508F00F7D3C8 /* TestForFeedbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34168934231F508F00F7D3C8 /* TestForFeedbackTests.m */; };
 		34168940231F508F00F7D3C8 /* TestForFeedbackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416893F231F508F00F7D3C8 /* TestForFeedbackUITests.m */; };
+		34168950231F5B3600F7D3C8 /* HelpCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416894E231F5B3600F7D3C8 /* HelpCenterController.m */; };
+		34168951231F5B3600F7D3C8 /* HelpCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3416894F231F5B3600F7D3C8 /* HelpCenterController.xib */; };
+		34168955231F5C3300F7D3C8 /* ScreenshotEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34168953231F5C3300F7D3C8 /* ScreenshotEditController.m */; };
+		34168956231F5C3300F7D3C8 /* ScreenshotEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34168954231F5C3300F7D3C8 /* ScreenshotEditController.xib */; };
+		3416895A231F5C4900F7D3C8 /* FeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34168958231F5C4900F7D3C8 /* FeedbackController.m */; };
+		3416895B231F5C4900F7D3C8 /* FeedbackController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34168959231F5C4900F7D3C8 /* FeedbackController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3411C7C2231F8F2F000EFEB8 /* ScreenshotUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotUtil.h; sourceTree = "<group>"; };
+		3411C7C3231F8F2F000EFEB8 /* ScreenshotUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshotUtil.m; sourceTree = "<group>"; };
+		3411C7C5231FB909000EFEB8 /* PaintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		3411C7C6231FB909000EFEB8 /* PaintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		3411C7C9231FCAC4000EFEB8 /* UIView+ConvertToImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvertToImage.h"; sourceTree = "<group>"; };
+		3411C7CA231FCAC4000EFEB8 /* UIView+ConvertToImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConvertToImage.m"; sourceTree = "<group>"; };
+		3411C7CD231FD27A000EFEB8 /* ImageListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageListView.h; sourceTree = "<group>"; };
+		3411C7CE231FD27A000EFEB8 /* ImageListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageListView.m; sourceTree = "<group>"; };
+		3411C7D0231FD293000EFEB8 /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		3411C7D1231FD293000EFEB8 /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		3411C7D2231FD293000EFEB8 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		34168918231F508C00F7D3C8 /* TestForFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416891B231F508C00F7D3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3416891C231F508C00F7D3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,15 @@
 		3416893B231F508F00F7D3C8 /* TestForFeedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForFeedbackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416893F231F508F00F7D3C8 /* TestForFeedbackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForFeedbackUITests.m; sourceTree = "<group>"; };
 		34168941231F508F00F7D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3416894D231F5B3600F7D3C8 /* HelpCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpCenterController.h; sourceTree = "<group>"; };
+		3416894E231F5B3600F7D3C8 /* HelpCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpCenterController.m; sourceTree = "<group>"; };
+		3416894F231F5B3600F7D3C8 /* HelpCenterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpCenterController.xib; sourceTree = "<group>"; };
+		34168952231F5C3300F7D3C8 /* ScreenshotEditController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotEditController.h; sourceTree = "<group>"; };
+		34168953231F5C3300F7D3C8 /* ScreenshotEditController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshotEditController.m; sourceTree = "<group>"; };
+		34168954231F5C3300F7D3C8 /* ScreenshotEditController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenshotEditController.xib; sourceTree = "<group>"; };
+		34168957231F5C4900F7D3C8 /* FeedbackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FeedbackController.h; path = TestForFeedback/Feedback/Feedback/FeedbackController.h; sourceTree = SOURCE_ROOT; };
+		34168958231F5C4900F7D3C8 /* FeedbackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FeedbackController.m; path = TestForFeedback/Feedback/Feedback/FeedbackController.m; sourceTree = SOURCE_ROOT; };
+		34168959231F5C4900F7D3C8 /* FeedbackController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedbackController.xib; path = TestForFeedback/Feedback/Feedback/FeedbackController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +110,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3411C7C0231F8F14000EFEB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3411C7C8231FCAAE000EFEB8 /* UIView */,
+				3411C7C1231F8F1E000EFEB8 /* Screenshot */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3411C7C1231F8F1E000EFEB8 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				3411C7C2231F8F2F000EFEB8 /* ScreenshotUtil.h */,
+				3411C7C3231F8F2F000EFEB8 /* ScreenshotUtil.m */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		3411C7C8231FCAAE000EFEB8 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3411C7C9231FCAC4000EFEB8 /* UIView+ConvertToImage.h */,
+				3411C7CA231FCAC4000EFEB8 /* UIView+ConvertToImage.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3411C7CC231FD262000EFEB8 /* ImageList */ = {
+			isa = PBXGroup;
+			children = (
+				3411C7CD231FD27A000EFEB8 /* ImageListView.h */,
+				3411C7CE231FD27A000EFEB8 /* ImageListView.m */,
+				3411C7D0231FD293000EFEB8 /* ImageCell.h */,
+				3411C7D1231FD293000EFEB8 /* ImageCell.m */,
+				3411C7D2231FD293000EFEB8 /* ImageCell.xib */,
+			);
+			path = ImageList;
+			sourceTree = "<group>";
+		};
 		3416890F231F508C00F7D3C8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +172,8 @@
 		3416891A231F508C00F7D3C8 /* TestForFeedback */ = {
 			isa = PBXGroup;
 			children = (
+				3411C7CC231FD262000EFEB8 /* ImageList */,
+				3416895D231F5C6200F7D3C8 /* Feedback */,
 				3416891B231F508C00F7D3C8 /* AppDelegate.h */,
 				3416891C231F508C00F7D3C8 /* AppDelegate.m */,
 				3416891E231F508C00F7D3C8 /* ViewController.h */,
@@ -130,6 +203,49 @@
 				34168941231F508F00F7D3C8 /* Info.plist */,
 			);
 			path = TestForFeedbackUITests;
+			sourceTree = "<group>";
+		};
+		3416895D231F5C6200F7D3C8 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				3411C7C0231F8F14000EFEB8 /* Utils */,
+				34168960231F5CC000F7D3C8 /* Feedback */,
+				3416895F231F5CB300F7D3C8 /* Screenshot */,
+				3416895E231F5C6F00F7D3C8 /* HelpCenter */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		3416895E231F5C6F00F7D3C8 /* HelpCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3416894D231F5B3600F7D3C8 /* HelpCenterController.h */,
+				3416894E231F5B3600F7D3C8 /* HelpCenterController.m */,
+				3416894F231F5B3600F7D3C8 /* HelpCenterController.xib */,
+			);
+			path = HelpCenter;
+			sourceTree = "<group>";
+		};
+		3416895F231F5CB300F7D3C8 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				34168952231F5C3300F7D3C8 /* ScreenshotEditController.h */,
+				34168953231F5C3300F7D3C8 /* ScreenshotEditController.m */,
+				34168954231F5C3300F7D3C8 /* ScreenshotEditController.xib */,
+				3411C7C5231FB909000EFEB8 /* PaintView.h */,
+				3411C7C6231FB909000EFEB8 /* PaintView.m */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		34168960231F5CC000F7D3C8 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				34168957231F5C4900F7D3C8 /* FeedbackController.h */,
+				34168958231F5C4900F7D3C8 /* FeedbackController.m */,
+				34168959231F5C4900F7D3C8 /* FeedbackController.xib */,
+			);
+			path = Feedback;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +353,11 @@
 			files = (
 				34168928231F508F00F7D3C8 /* LaunchScreen.storyboard in Resources */,
 				34168925231F508F00F7D3C8 /* Assets.xcassets in Resources */,
+				3411C7D4231FD293000EFEB8 /* ImageCell.xib in Resources */,
+				3416895B231F5C4900F7D3C8 /* FeedbackController.xib in Resources */,
 				34168923231F508C00F7D3C8 /* Main.storyboard in Resources */,
+				34168951231F5B3600F7D3C8 /* HelpCenterController.xib in Resources */,
+				34168956231F5C3300F7D3C8 /* ScreenshotEditController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +384,15 @@
 			files = (
 				34168920231F508C00F7D3C8 /* ViewController.m in Sources */,
 				3416892B231F508F00F7D3C8 /* main.m in Sources */,
+				3411C7D3231FD293000EFEB8 /* ImageCell.m in Sources */,
+				34168955231F5C3300F7D3C8 /* ScreenshotEditController.m in Sources */,
 				3416891D231F508C00F7D3C8 /* AppDelegate.m in Sources */,
+				3416895A231F5C4900F7D3C8 /* FeedbackController.m in Sources */,
+				3411C7CB231FCAC4000EFEB8 /* UIView+ConvertToImage.m in Sources */,
+				3411C7CF231FD27A000EFEB8 /* ImageListView.m in Sources */,
+				3411C7C7231FB909000EFEB8 /* PaintView.m in Sources */,
+				3411C7C4231F8F2F000EFEB8 /* ScreenshotUtil.m in Sources */,
+				34168950231F5B3600F7D3C8 /* HelpCenterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FSX6RWLX2;
 				INFOPLIST_FILE = TestForFeedback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FSX6RWLX2;
 				INFOPLIST_FILE = TestForFeedback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

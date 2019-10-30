@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [UIApplication sharedApplication].applicationSupportsShakeToEdit = YES;
+    [[UIApplication sharedApplication].keyWindow.rootViewController.view becomeFirstResponder];
+
+    
     return YES;
 }
 
